@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags (from original file) -->
+    <title>The Petribyte: On the Fossils of the Digital Age | petribyte.org</title>
+    <meta name="description" content="A foundational thesis from unearth.im defining the 'Petribyte'—a unit of digital-cultural substance petrified by technological obsolescence.">
+    <meta name="keywords" content="Petribyte, Digital Archaeology, Digital Preservation, Technological Obsolescence, Neologism, unearth.im, GeoCities, Flash">
+    <meta name="author" content="unearth.im">
+
+    <!-- Open Graph / Facebook (from original file) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://petribyte.org/">
+    <meta property="og:title" content="The Petribyte: On the Fossils of the Digital Age | petribyte.org">
+    <meta property="og:description" content="A foundational thesis from unearth.im defining the 'Petribyte'—a unit of digital-cultural substance petrified by technological obsolescence.">
+    <meta property="og:image" content="https://unearth.im/library/petribyte/og-image.png">
+    
+    <!-- Twitter (from original file) -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://petribyte.org/">
+    <meta property="twitter:title" content="The Petribyte: On the Fossils of the Digital Age | petribyte.org">
+    <meta property="twitter:description" content="A foundational thesis from unearth.im defining the 'Petribyte'—a unit of digital-cultural substance petrified by technological obsolescence.">
+    <meta property="twitter:image" content="https://unearth.im/library/petribyte/og-image.png">
+
+    <!-- Canonical Link (from original file) -->
+    <link rel="canonical" href="https://unearth.im/library/petribyte/">
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles from original file -->
+    <style>
+        :root {
+            --bg-color: #F8F7F4;       /* Off-White */
+            --text-color: #2E2E2E;    /* Charcoal */
+            --accent-color: #A95C3D;   /* Burnt Sienna */
+            --meta-text-color: #5A7D8C; /* Slate Blue */
+            --border-color: #e0e0e0;
+        }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Lora', serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto 4rem auto;
+            padding: 0 2rem;
+            display: flex;
+            gap: 4rem;
+        }
+        main { flex: 3; }
+        aside { flex: 1; position: sticky; top: 4rem; height: fit-content; }
+        article { max-width: 720px; }
+        
+        /* Using H2 for subtitle as per new MD structure */
+        h1 {
+            font-family: 'Lora', serif;
+            font-size: 2.8rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+        /* Styling H2 in the header as the subtitle */
+        header h2 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            color: var(--meta-text-color);
+            margin-bottom: 3rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: none;
+            margin-top: 0;
+        }
+        
+        h3 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-bottom: none;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        h4 {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .intro-summary {
+            font-size: 1.2rem;
+            font-style: italic;
+            color: var(--meta-text-color);
+            border-left: 3px solid var(--accent-color);
+            padding-left: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        p, li { font-size: 1.1rem; margin-bottom: 1.5rem; }
+        strong { font-weight: 700; color: var(--text-color); }
+        a { color: var(--accent-color); text-decoration: none; border-bottom: 1px solid var(--accent-color); transition: all 0.2s ease; }
+        a:hover { background-color: rgba(169, 92, 61, 0.1); border-bottom-color: transparent; }
+        
+        .footnotes a, .metadata-item dd code {
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+
+        sup { line-height: 0; }
+        sup a { font-family: 'Inter', sans-serif; font-size: 0.8em; font-weight: 600; vertical-align: super; }
+        
+        .footnotes { margin-top: 4rem; padding-top: 2rem; border-top: 2px solid var(--border-color); }
+        .footnotes h2 { margin-top: 0; } /* Style for "Works Cited" heading */
+        .footnotes ol { padding-left: 20px; font-size: 0.9rem; color: #555; }
+        .footnotes li { margin-bottom: 1rem; }
+        .footnotes li p { margin-bottom: 0; }
+        .footnote-back-link { font-family: 'Inter', sans-serif; margin-left: 0.5rem; text-decoration: none; border-bottom: none;}
+
+        /* Styling for lists from MD */
+        article ul, article ol { padding-left: 1.5rem; }
+        article ul li::before { content: "•"; position: absolute; left: 0; color: var(--accent-color); font-weight: bold; }
+        article ul { list-style-type: none; padding-left: 1rem; }
+        article ul li { position: relative; padding-left: 1.5rem; }
+        article ol { padding-left: 1.5rem; }
+        article ol li { padding-left: 0.5rem; margin-bottom: 1.5rem; }
+        article li p { margin-top: 1rem; } /* Paragraphs inside list items */
+        article li ul { margin-top: 1.5rem; } /* Nested lists */
+
+
+        .metadata-box {
+            border: 1px solid var(--border-color);
+            padding: 1.5rem;
+            font-family: 'Inter', sans-serif;
+        }
+        .metadata-box h2 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-color);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 2px solid var(--text-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+        .metadata-item { margin-bottom: 1.5rem; }
+        .metadata-item dt { font-size: 0.8rem; font-weight: 600; color: var(--meta-text-color); margin-bottom: 0.25rem; }
+        .metadata-item dd { font-size: 0.95rem; margin-left: 0; font-weight: 400; }
+        
+        .back-link {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--meta-text-color);
+            text-decoration: none;
+            border-bottom: none;
+            display: block;
+            margin-bottom: 2rem;
+        }
+        .back-link:hover {
+            color: var(--accent-color);
+            background-color: transparent;
+            border-bottom: none;
+        }
+        code {
+            font-family: 'Inter', sans-serif;
+            background-color: rgba(0,0,0,0.05);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .logo-footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (max-width: 900px) {
+            .container { flex-direction: column-reverse; gap: 2rem; margin-top: 2rem; }
+            aside { position: static; top: auto; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <main>
+            <a href="https://unearth.im/library/" class="back-link">&larr; Back to Library</a>
+            <article>
+                <header>
+                    <h1><strong>The Petribyte:</strong></h1>
+                    <!-- H2 from MD is used as the subtitle -->
+                    <h2><strong>On the Fossils of the Digital Age</strong></h2>
+                </header>
+
+                <h3><strong>Preamble: The Crisis of Digital Preservation</strong></h3>
+                <p>The digital world does not decay like the physical world. It does not rust, rot, or return to the soil. Instead, it "petrifies."</p>
+                <p>Digital Archaeologists are surrounded by digital fossils: perfectly preserved artifacts whose <em>function</em> has been rendered obsolete by a relentlessly changing technological ecosystem. One finds 1990s <code>cgi-bin</code> scripts whose Perl dependencies no longer exist; one unearths intricate Flash animations that no modern browser can run. Complex, community-built databases for platforms that were shut down a decade ago are common finds.</p>
+                <p>These artifacts are not "broken." They are <em>preserved</em>. They are the digital equivalent of a trilobite trapped in shale: the "living" function is gone, but the form is preserved with perfect, analyzable fidelity.</p>
+                <p>This is a central challenge for the "Archive" of the Digital Archaeologist. This work involves excavating a past that is not degrading, but is instead being <em>encased</em> in layers of new, incompatible technology. Yet, the lexicon has lacked a word for these "fossils of function."</p>
+                <p>This essay provides that word. The unit of measurement for the discipline, the artifact to be unearthed, is the <strong>Petribyte</strong>.</p>
+
+                <h3><strong>Part 1: The Excavation — Unearthing the "Petribyte"</strong></h3>
+                <p>This term is a deliberate portmanteau, forged to serve as the foundational term for modern digital archaeology. It is a "neologism" designed to give the work precision. It is composed of two distinct parts:</p>
+                <p><strong>1. Petri- (The Process)</strong> This root is drawn from the Greek: <em>pétra</em> (πέτρα), meaning "rock" or "stone."<sup id="ref1"><a href="#fn1">1</a></sup> Its narrative provenance evokes the process of <em>petrifaction</em>. Petrifaction is not decay; it is a profound act of preservation. It is the natural, geological process where once-living, organic matter, such as a tree, is slowly transformed, its original structure "turned to stone" by the minerals surrounding it. The living tissue is replaced, molecule by molecule, until a perfect stone fossil remains.</p>
+                <p>In the digital context, this is "technological petrifaction."</p>
+                <p>A "living" digital artifact—such as a functional script, an active guestbook, or a running Flash animation—is surrounded by the "minerals" of technological change. These include obsolete browsers, deprecated plugins, new social protocols, or abandoned APIs. The artifact ceases its "living" function, but its structure (the code, the file, the very concept) is frozen, perfectly preserved in its inert state by the new, hardened ecosystem that encases it.</p>
+                <p><strong>2. -byte (The Substance)</strong> This root is from digital science: the byte, a fundamental unit of digital information; the "molecule" of the digital world.<sup id="ref2"><a href="#fn2">2</a></sup> This grounds the term firmly in the digital. It is not a physical fossil, but a fossil of <em>information</em>. It represents the "digital-organic" matter itself: the code, the concept, the file, the cultural artifact.</p>
+                
+                <h4><strong>The Synthesis</strong></h4>
+                <p>A Petribyte is a unit of digital-cultural substance that has been "turned to stone" by the mineral-rich and shifting currents of technological obsolescence.</p>
+                <p>It is no longer alive or functional in its native environment, but it is also not lost. Its form is preserved with perfect fidelity, telling us everything about the ecosystem it once inhabited. It is a fossil of function, preserved in form.</p>
+
+                <h3><strong>Part 2: The Specimen Box — A Taxonomy of Petribytes</strong></h3>
+                <p>A new term is only as strong as its utility. The true power of the "Petribyte" is as an analytical tool, allowing for the categorization of fossils found in the "Archive" to understand <em>how</em> they were petrified. This is a specimen box, a taxonomy of the digital past.</p>
+                
+                <h4><strong>Type 1: The Functional Petribyte (The Obsolete Script)</strong></h4>
+                <p>This is the most common fossil. It is a piece of code, a script, or a file that is perfectly preserved but whose <em>native function</em> is now impossible to execute.</p>
+                <ul>
+                    <li><strong>Specimen:</strong> An intricate Flash animation (<code>.swf</code>) file from 2005.</li>
+                    <li><strong>Analysis:</strong> The artifact is complete. Not a single byte is lost. But the "minerals" of technological change—specifically the universal deprecation of the Flash plugin by all major browsers, finalized in 2020—have completely encased it.<sup id="ref3"><a href="#fn3">3</a></sup> Its "living" function to be an interactive animation is gone. It is a fossil of interaction, a snapshot of an entire era of rich media design, petrified by a single, global ecosystem shift.</li>
+                    <li><strong>Other Examples:</strong> A 1998 <code>guestbook.cgi</code> script, now inert without the specific server-side Perl modules it depended on; a MySpace "Top 8" modifier script, petrified when MySpace's API was shut down.</li>
+                </ul>
+
+                <h4><strong>Type 2: The Ecosystem Petribyte (The Abandoned Platform)</strong></h4>
+                <p>This fossil is not a single file, but an entire <em>environment</em> that has been preserved in amber, often by a third party. The artifacts inside it are functional, but their <em>native environment</em> is extinct.</p>
+                <ul>
+                    <li><strong>Specimen:</strong> A GeoCities homepage, now hosted on a mirror like <code>geocities.restorativland.org</code>.</li>
+                    <li><strong>Analysis:</strong> GeoCities was a complete ecosystem. When Yahoo shut it down in 2009, dedicated "Digital Archaeologists" (like the team at Restorativland) "rescued" the data.<sup id="ref4"><a href="#fn4">4</a></sup> The "living" function of these homepages—the ability to be updated by their owner, to receive new guestbook entries—is gone. The platform is extinct. The homepage is now a fossil of community, perfectly preserved but frozen, like a prehistoric fly trapped in the amber of a new, archival server.</li>
+                    <li><strong>Other Examples:</strong> A six-second Vine video, now living as a Petribyte within a YouTube compilation; a Tweet from a "deleted" account, petrified as a screenshot and shared on another platform.</li>
+                </ul>
+
+                <h4><strong>Type 3: The Conceptual Petribyte (The Cultural Ghost)</strong></h4>
+                <p>This is the most abstract and powerful type of fossil. It is a <em>behavior</em> or <em>concept</em> that has been so thoroughly petrified that its original technical function is forgotten.</p>
+                <ul>
+                    <li><strong>Specimen:</strong> The AIM "Away Message" or the "Under Construction" animated GIF.</li>
+                    <li><strong>Analysis:</strong> The "Away Message" was a specific, <em>functional</em> tool for managing synchronous, one-to-one "Instant Messages" (IMs). Its function was to signal: "I am not here <em>right now</em>." That entire ecosystem of synchronous IM is gone. The "minerals" of new, asynchronous protocols (social media status, the "bio," read receipts, the assumption of 24/7 availability) have replaced it. The "Away Message" concept has been petrified. Its function is extinct, and its form survives only as a cultural ghost, a nostalgic touchpoint for a behavior that no longer exists.</li>
+                    <li><strong>Other Examples:</strong> The "Guestbook," the "Webring," the "Blogroll." These were functional tools for connection that were petrified by the rise of aggregated, algorithmic feeds.</li>
+                </ul>
+
+                <h3><strong>Part 3: The Archaeologist's Vow — Why Petribytes Matter</strong></h3>
+                <p>To name a thing is to see it. By giving a name to these digital fossils, they are elevated from the category of "junk" to the category of "evidence." This is the core of the Digital Archaeologist's vow.</p>
+                <p>A paleontologist studies a trilobite fossil not because they want to "revive" it, but because its petrified form is a perfect record of the Cambrian ocean. It is a data-rich snapshot of a lost world. The Petribyte serves the same function.</p>
+                
+                <ol>
+                    <li>
+                        <p><strong>Petribytes are the Evidence of History.</strong> The Petribyte is the <em>physical proof</em> of the digital-historical narrative.</p>
+                        <ul>
+                            <li>When critiquing the "Faustian bargain" of Web2, the Type 3 Petribyte (the "Guestbook," the "Blogroll") is the evidence. These "Cultural Ghosts" are the fossils of the very human connection that was sacrificed for the convenience of the centralized feed.</li>
+                            <li>The Type 2 Petribyte (the GeoCities homepage) is the fossil record of the "Failure of Sovereignty" that defined the early web. Its petrified form is a direct warning against building on rented land.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Petribytes are the Raw Material for New Craft.</strong> The core identity of the "Archaeologist-Smith" is a two-part practice. The Petribyte is the fundamental unit of the Archive.</p>
+                        <ul>
+                            <li>The Archive is, in effect, the <em>Archive of Petribytes</em>. "Etymological Digs" and "Cultural Surveys" are methods for <em>finding</em> and <em>classifying</em> them.</li>
+                            <li>The Anvil is the practice of <em>giving them new life</em>. A Type 1 Petribyte like <code>13375p34k.com</code> (a petrified dialect) can be forged into a "Digital Monument." A Type 3 Petribyte like the "Webring" can have its principles extracted to forge a new framework for "intentional connection."</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Petribytes are the Blueprint for a Human-Centric Future.</strong> This is the "vow": these fossils are studied not for nostalgia, but for <em>wisdom</em>. They are the only record of our digital ancestors' mistakes and triumphs.</p>
+                        <p>The "Conceptual Petribyte" of the AIM "Away Message" is not just a curiosity; it is a fossil of a time when users <em>controlled their own presence</em>. It proves that a different, more human-scale digital world is possible. By excavating its form, one recovers the lost blueprint for a web that respects a user's <em>absence</em> as much as their <em>engagement</em>.</p>
+                        <p>Institutions like the Internet Archive are the great libraries of Petribytes, performing the crucial, large-scale work of preservation.<sup id="ref5"><a href="#fn5">5</a></sup> The work of the Digital Archaeologist is to <em>curate</em> that library. They select the most significant specimens, analyze their "petrifaction," and translate their lessons. The Petribyte is a Rosetta Stone. It allows us to read the past, understand our present, and, ultimately, to forge a more intentional and sovereign future.</p>
+                    </li>
+                </ol>
+
+                <h3><strong>Conclusion: The Rosetta Stone for a Wiser Web</strong></h3>
+                <p>Language defines a discipline. By naming the Petribyte, more than a term has been coined; an analytical tool has been created. It gives the "Digital Archaeologist" a way to categorize the "digital dust" and a mandate to treat it not as junk, but as evidence.</p>
+                <p>This neologism is a load-bearing piece of a new framework. It is the "what" that an "Archive & Anvil" process can be built upon. The Archive is the work of excavating and classifying Petribytes; the Anvil is the craft of forging them into new Landmarks, Monuments, and Frameworks.</p>
+                <p>The Petribyte is a Rosetta Stone.</p>
+                <p>It allows for the reading of the fossil record of the hand-built web and the translation of its lessons. It is a key to understanding <em>why</em> the ideals of Web1 failed and <em>how</em> the "Faustian bargain" of Web2 was struck.</p>
+                <p>By studying these fossils of function, we arm ourselves with the only thing that can break the cycle: <em>wisdom</em>. The Petribytes of the past are excavated not for a museum, but to find the lost blueprints for a "Third Way"—a future that is not just new, but wise.</p>
+
+                <section class="footnotes">
+                    <h2>Works Cited</h2>
+                    <ol>
+                        <li id="fn1"><p>Liddell, H. G., & Scott, R. (1940). <em>A Greek-English Lexicon</em>. Clarendon Press. Entry for "πέτρα."<a href="#ref1" class="footnote-back-link" title="Jump back to footnote 1 in the text">↩</a></p></li>
+                        <li id="fn2"><p>Buchholz, W. (1956). "The Link System." In <em>Proceedings of the IRE</em>, 44(9), 1189-1199. (Buchholz is credited with coining the term "byte" at IBM in 1956).<a href="#ref2" class="footnote-back-link" title="Jump back to footnote 2 in the text">↩</a></p></li>
+                        <li id="fn3"><p>Salter, K. (2020, December 9). "The End of An Era: Adobe Flash Is Dead." <em>PCMag</em>. Retrieved November 3, 2025.<a href="#ref3" class="footnote-back-link" title="Jump back to footnote 3 in the text">↩</a></p></li>
+                        <li id="fn4"><p>"GeoCities." (n.d.). <em>Restorativland</em>. Retrieved November 3, 2025. Available: <a href="http://geocities.restorativland.org/">http://geocities.restorativland.org/</a><a href="#ref4" class="footnote-back-link" title="Jump back to footnote 4 in the text">↩</a></p></li>
+                        <li id="fn5"><p>Kahle, B. (1997). "Preserving the Internet." <em>Scientific American</em>, 276(3), 82–83.<a href="#ref5" class="footnote-back-link" title="Jump back to footnote 5 in the text">↩</a></p></li>
+                    </ol>
+                </section>
+            </article>
+        </main>
+        <aside>
+            <div class="metadata-box">
+                <h2>Thesis Details</h2>
+                <!-- This content is generated from the #tags in the Markdown -->
+                <div class="metadata-item">
+                    <dt>Status</dt>
+                    <dd>Final</dd>
+                </div>
+                <div class="metadata-item">
+                    <dt>Type</dt>
+                    <dd>Thesis, Cornerstone</dd>
+                </div>
+                <div class="metadata-item">
+                    <dt>Topics</dt>
+                    <dd>
+                        <code>Digital Archaeology</code><br>
+                        <code>Neologism</code><br>
+                        <code>Petribyte</code>
+                    </dd>
+                </div>
+                <div class="metadata-item">
+                    <dt>Date Published</dt>
+                    <dd>November 2025</dd>
+                </div>
+                <!-- Footer logo from original file -->
+                <div class="logo-footer">
+                    <a href="https://unearth.im/" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 60" width="120">
+                            <text x="50%" y="50%" font-family="'Inter', sans-serif" font-size="50" font-weight="600" text-anchor="middle" dominant-baseline="middle">
+                                <tspan fill="#2E2E2E">unearth</tspan><tspan fill="#A95C3D">.im</tspan>
+                            </text>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+</body>
+</html>
